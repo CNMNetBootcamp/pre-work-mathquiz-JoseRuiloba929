@@ -132,7 +132,6 @@
             this.sum.Name = "sum";
             this.sum.Size = new System.Drawing.Size(100, 28);
             this.sum.TabIndex = 2;
-            this.sum.ValueChanged += new System.EventHandler(this.checkIfRight1);
             this.sum.Enter += new System.EventHandler(this.answer_Enter);
             // 
             // difference

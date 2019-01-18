@@ -148,20 +148,6 @@ public void StartTheQuiz()
             }
         }
 
-        private void checkIfRight1(object sender, EventArgs e)
-        {
-            if (startButton.Enabled == false)
-            {
-                if (sum.Value == addend1 + addend2)
-                {
-                    System.Media.SystemSounds.Exclamation.Play();
-                }
-                else if (sum.Value != 0)
-                {
-                    System.Media.SystemSounds.Beep.Play();
-                }
-            }
-         }
     }
 
 }
